@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Song Title</title>
+  <title>Amor Eterno - Lyrics</title>
 
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: #fafafa;
       color: #222;
-      max-width: 700px;
+      max-width: 900px;
       margin: 40px auto;
       padding: 20px;
       line-height: 1.6;
@@ -31,22 +31,25 @@
       color: #666;
     }
 
-    .lyrics {
+    .row {
+      display: flex;
+      gap: 30px;
       margin-top: 15px;
     }
 
-    .es {
-      color: #444;
+    .column {
+      flex: 1;
     }
 
-    .en {
-      color: #000;
-      font-weight: 500;
-      margin-bottom: 12px;
+    .column h3 {
+      font-size: 0.9em;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 10px;
     }
 
     .line {
-      margin: 2px 0;
+      margin: 4px 0;
     }
 
     footer {
@@ -55,38 +58,304 @@
       color: #888;
       text-align: center;
     }
+
+    .social-links {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .social-links a {
+      color: #888;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: color 0.2s;
+    }
+
+    .social-links a:hover { color: #222; }
+
+    /* Mobile: stack columns */
+    @media (max-width: 600px) {
+      .row {
+        flex-direction: column;
+      }
+    }
   </style>
 </head>
 
 <body>
 
-  <h1>Song Title</h1>
-  <p style="text-align:center; color:#666;">Artist Name</p>
+  <h1>Amor Eterno</h1>
 
-  <div class="lyrics">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/RgKqxLAhRKE?si=O7VB96i6sPu1z9Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    <h2>Verse 1</h2>
+  <div class="row">
+    <div class="column">
+      <h3>Spanish</h3>
+      <div class="line">
+        Quiero dedicar esta canción
+        con mucho amor y respeto<br>
+        Más que una canción, es una
+        oración de amor que
+        quiero dedicar<br>
+        Como siempre, con el mismo
+        amor, cariño y respeto<br>
+        A todas las mamás que esta
+        noche me han venido a visitar
+      </div>
+      <div class="line">
+        Sobre todo, para aquellas que están un poquito más lejos de mi...
+      </div>
+    </div>
 
-    <div class="line es">Línea uno en español</div>
-    <div class="line en">Line one in English</div>
+    <div class="column">
+      <h3>English</h3>
+      <div class="line">
+        I want to dedicate this song
+        with much love and respect<br>
+        More than a song, it's a love prayer that I want to give<br>
+        As always, with the same love, tenderness and respect<br>
+        To all those mothers who came to visit me tonight
+      </div>
+      <div class="line">
+        More so, to those that are a bit farther away from me...
+      </div>
+    </div>
+  </div>
 
-    <div class="line es">Línea dos en español</div>
-    <div class="line en">Line two in English</div>
+    <div class="row">
+    <div class="column">
+      <div class="line">Tú eres la tristeza, ay, de mis ojos</div>
+      <div class="line">Que lloran en silencio por tu amor</div>
+      <div class="line">Me miro en el espejo y veo en mi rostro</div>
+      <div class="line">El tiempo que he sufrido por tu adiós</div>
+    </div>
 
+    <div class="column">
+      <div class="line">You are the sadness, oh, of my eyes</div>
+      <div class="line">That cry out in silence for your love</div>
+      <div class="line">I look in the mirror and see in my face</div>
+      <div class="line">The time I've suffered over your farewell</div>
+    </div>
+  </div>
 
-    <h2>Chorus</h2>
+  <div class="row">
+    <div class="column">
+      <div class="line">Obligo a que te olvide el pensamiento</div>
+      <div class="line">Pues siempre estoy pensando en el ayer</div>
+      <div class="line">Prefiero estar dormido que despierto</div>
+      <div class="line">De tanto y tanto que me duele que no estés</div>
+    </div>
 
-    <div class="line es">Línea del coro en español</div>
-    <div class="line en">Chorus line in English</div>
+    <div class="column">
+      <div class="line">I force my thoughts to forget you</div>
+      <div class="line">Since I'm always thinking about the past</div>
+      <div class="line">I'd rather be asleep than awake</div>
+      <div class="line">From all, oh all the pain of your absence</div>
+    </div>
+  </div>
 
-    <div class="line es">Otra línea del coro</div>
-    <div class="line en">Another chorus line</div>
+  <div class="row">
+    <div class="column">
+      <div class="line">Cómo quisiera</div>
+      <div class="line">Que tú vivieras</div>
+      <div class="line">Que tus ojitos jamás se hubieran</div>
+      <div class="line">Cerrado nunca y estar mirándolos</div>
+    </div>
 
+    <div class="column">
+      <div class="line">How I wish</div>
+      <div class="line">That you still lived</div>
+      <div class="line">That your eyes would never have closed</div>
+      <div class="line">And I could still see them</div>
+    </div>
+  </div>
 
+  <div class="row">
+    <div class="column">
+      <div class="line">Amor eterno</div>
+      <div class="line">E inolvidable</div>
+      <div class="line">Pero tarde o temprano yo voy a estar contigo</div>
+      <div class="line">Para seguir amándonos</div>
+    </div>
+
+    <div class="column">
+      <div class="line">Eternal love</div>
+      <div class="line">And unforgettable</div>
+      <div class="line">But sooner or later, I'll be with you</div>
+      <div class="line">To keep loving each other</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="line">Yo he sufrido mucho por tu ausencia</div>
+      <div class="line">Desde ese día hasta hoy, no soy feliz</div>
+      <div class="line">Y aunque tengo, y muy tranquila mi conciencia</div>
+      <div class="line">Yo sé que pude y sé que pude haber yo hecho más por ti</div>
+    </div>
+
+    <div class="column">
+      <div class="line">I have suffered a lot from your absence</div>
+      <div class="line">From that day until today, I haven't known joy</div>
+      <div class="line">And, even though my conscience is clear</div>
+      <div class="line">I know I could, and I know I could have done more for you</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="line">Oscura soledad estoy viviendo yo</div>
+      <div class="line">La misma soledad de tu sepulcro, mamá</div>
+      <div class="line">Y es que tú eres, es que tú eres el amor de cual yo tengo</div>
+      <div class="line">El más triste recuerdo de Acapulco</div>
+    </div>
+
+    <div class="column">
+      <div class="line">Dark loneliness I'm living today</div>
+      <div class="line">The same loneliness of your sepulcher, mom</div>
+      <div class="line">And it's that you are, oh you are the love from which I have</div>
+      <div class="line">The saddest memory of Acapulco</div>
+    </div>
+  </div>
+
+   <div class="row">
+    <div class="column">
+      <div class="line">Pero cómo quisiera</div>
+      <div class="line">Que tú vivieras</div>
+      <div class="line">Que tus ojitos jamás se hubieran</div>
+      <div class="line">Cerrado nunca y estar mirándolos</div>
+    </div>
+
+    <div class="column">
+      <div class="line">But how I wish</div>
+      <div class="line">That you still lived</div>
+      <div class="line">That your eyes would never have closed</div>
+      <div class="line">And I could still see them</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="line">Amor eterno</div>
+      <div class="line">E inolvidable</div>
+      <div class="line">Pero tarde o temprano estaré contigo</div>
+      <div class="line">Para seguir amándonos</div>
+    </div>
+
+    <div class="column">
+      <div class="line">Eternal love</div>
+      <div class="line">And unforgettable</div>
+      <div class="line">But sooner or later, I'll be with you</div>
+      <div class="line">To keep loving us</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="line">Amor eterno</div>
+      <div class="line">Eterno</div>
+      <div class="line">Amor eterno</div>
+      <div class="line">Eterno</div>
+    </div>
+
+    <div class="column">
+      <div class="line">Eternal love</div>
+      <div class="line">Eternal</div>
+      <div class="line">Eternal love</div>
+      <div class="line">Eternal</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="line">Ojos que hayan derramado tantas lágrimas por penas</div>
+      <div class="line">De dolor</div>
+      <div class="line">De amor</div>
+      <div class="line">De tantas despedidas y de esperas</div>
+    </div>
+
+    <div class="column">
+      <div class="line">Eyes that have shed many tears from sorrow</div>
+      <div class="line">From pain</div>
+      <div class="line">From love</div>
+      <div class="line">From so many farewells and longing</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="line">Soledad</div>
+      <div class="line">Eso es todo lo que tengo ahora</div>
+      <div class="line">Y tus recuerdos</div>
+      <div class="line">Que hacen más triste la angustia de vivir pensando como siempre en ti</div>
+    </div>
+
+    <div class="column">
+      <div class="line">Loneliness</div>
+      <div class="line">That's all I have today</div>
+      <div class="line">And your memories</div>
+      <div class="line">That make more sorrowful the anguish of living thinking, as always, about you</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="line">Ojos que te vieron tanto</div>
+      <div class="line">Y que no han vuelto a verte hasta el sol de hoy</div>
+      <div class="line">Tristes de tanto extrañarte</div>
+      <div class="line">Y de tanto esperarte desde aquel adiós</div>
+    </div>
+
+    <div class="column">
+      <div class="line">Eyes that saw you so many times</div>
+      <div class="line">And haven't seen you again until today's sun</div>
+      <div class="line">Saddened by missing you</div>
+      <div class="line">And by waiting for you ever since that farewell</div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="line">Soledad</div>
+      <div class="line">Eso es todo lo que tengo ahora</div>
+      <div class="line">Y eso es todo lo que tengo ahora</div>
+      <div class="line">Y tus recuerdos</div>
+      <div class="line">Que hacen más triste la angustia</div>
+      <div class="line">De vivir pensando como siempre</div>
+      <div class="line">Para siempre y por siempre en ti</div>
+    </div>
+
+    <div class="column">
+      <div class="line">Loneliness</div>
+      <div class="line">That's all I have now</div>
+      <div class="line">And that's all I have now</div>
+      <div class="line">And your memories</div>
+      <div class="line">That make more sorrowful the anguish</div>
+      <div class="line">Of living as always, forever and ever</div>
+      <div class="line">Thinking about you</div>
+    </div>
   </div>
 
   <footer>
-    Translation for educational purposes
+    Translation for educational purposes by @tintodadog
+    <div class="social-links">
+      <a href="https://www.tiktok.com/@tintodadog" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.79 1.53V6.77a4.85 4.85 0 01-1.02-.08z"/></svg>
+        TikTok
+      </a>
+      <a href="https://www.instagram.com/tintodadog" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        Instagram
+      </a>
+      <a href="https://t.me/tintodadog" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+        Telegram
+      </a>
+    </div>
   </footer>
 
 </body>
